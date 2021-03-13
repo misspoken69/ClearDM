@@ -1,4 +1,5 @@
 import discord
+import asyncio
 class MyClient(discord.Client):
     async def on_message(self, message):
         if(message.author!=self.user):
